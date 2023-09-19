@@ -1,0 +1,183 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+
+}
+
+header>h1 {
+  border-radius: 10px;
+  display: block;
+  color: darkgoldenrod;
+  margin-top: 0;
+}
+
+canvas {
+  border:solid 5px darkgoldenrod;
+  border-radius: 10px;
+  display: block;
+  position: absolute;
+  left: 10vw;
+  top: 5vh;
+  overflow: scroll;
+}
+body {
+  background-color:rgba(218, 165, 32, 0.05);
+}
+footer {
+  border:solid 5px darkgoldenrod;
+  border-radius:10px;
+  width: 8vw;
+  top:5vh;
+  height: 90vh;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items:center;
+  position: absolute;
+  font-size: large;
+}
+
+.mainWrapper {
+  overflow: visible;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+.buttonShape {
+  border: solid 2px gold;
+  border-radius: 50%;
+  width: 5vw;
+  height:5vw;
+  display: inline-flex;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+  font-size:90%; 
+}
+
+.buttonShape:hover {
+  cursor: pointer;
+}
+
+.tempoSlider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  width:fit-content;
+}
+
+.tempoSlider>input {
+  height: 10rem;
+  width: 7rem;
+  transform: rotate(90deg);
+}
+
+.music {
+  display:flex;
+  flex-direction:column;
+}
+
+.utilities {
+  display:flex;
+  flex-direction:column;
+}
+
+.plusClass {
+  width: 20px;
+  height: 20px;
+  border: solid 1px black;
+  border-radius: 50%;
+  background-image: url("plus.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.minusClass {
+  width: 20px;
+  height: 20px;
+  border: solid 1px black;
+  border-radius: 50%;
+  background-image: url("minus.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.settingOptions {
+  border-radius: 10px;
+  display: flex;
+  width: 20rem;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: xx-large;
+}
+
+.settingOptions>p {
+  margin-right: auto;
+}
+
+.settingOptionsWrapper {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  border: solid 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 15em;
+  flex-wrap: wrap;
+  color: darkgoldenrod;
+}
+
+.operationWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+.operationWrapper>p {
+  margin-right: 1rem;
+}
+
+.operationWrapper>div {
+  margin-right: 0.5rem;
+}
+
+.settingsHeader {
+  color: darkgoldenrod;
+  font-size: 4em;
+  position: absolute;
+  width: 100vw;
+  left: 0;
+  text-align: center;
+}
+
+.finishButton {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-image: url("finish.jpeg");
+  background-size: cover;
+  background-position: center center;
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.instrumentButton {
+  background-image:url('./PictureData/ins1.png');
+  background-size:cover;
+  background-position: center center;
+}
